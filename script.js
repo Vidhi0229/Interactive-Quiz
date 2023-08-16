@@ -16,4 +16,5 @@ form.addEventListener('submit', e => {
     })
     result.querySelector("span").textContent = `${score}%`;
     result.removeAttribute('class', 'd-none'); //or we can use result.classList.remove("d.none")
+    scrollTo(0,0);
 })
