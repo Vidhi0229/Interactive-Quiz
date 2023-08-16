@@ -2,9 +2,9 @@
 
 ![Screenshot](./src/Screenshot1.png)
 
-![Screenshot](./src/Screenshot1.png)
+![Screenshot](./src/Screenshot2.png)
 
-![Screenshot](./src/Screenshot1.png)
+![Screenshot](./src/Screenshot3.png)
 
 A small quiz app
 
