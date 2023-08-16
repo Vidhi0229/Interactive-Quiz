@@ -14,7 +14,18 @@ form.addEventListener('submit', e => {
             score += 25;
         }
     })
-    result.querySelector("span").textContent = `${score}%`;
+    
     result.removeAttribute('class', 'd-none'); //or we can use result.classList.remove("d.none")
     scrollTo(0,0);
+
+    let output = 0;
+    let timer = setInterval(() => {
+        result.querySelector("span").textContent = `${output}%`;
+        if(output === score){
+            clearInterval(timer);
+        }
+        else{
+            output++;
+        }
+    }, 100);
 })
